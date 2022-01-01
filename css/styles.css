@@ -4,75 +4,24 @@
 }
 html {
   overflow-y: scroll;
-  background-color: var(--blue);
 }
 main {
+  color: var(--blue);
   padding: 2rem;
-  /* max-width: 90%; */
   margin: 0 auto;
-}
-/* @media (min-width: 62em) {
-  main {
-    padding: 1rem;
-  }
-} */
-/* carousel */
-
-.carousel-cell {
-  width: 100%;
-  margin-right: 10px;
-  /* background: var(--blue); */
-  display: flex;
-  align-items: center;
+  text-align: center;
+  display: grid;
+  align-content: center;
   justify-content: center;
+  height: 100vh;
 }
-
-/* fill-in selected dot */
-.flickity-page-dots .dot.is-selected {
-  background: var(--blue);
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
-.flickity-button-icon {
-  fill: var(--blue);
-}
-.flickity-button:hover {
-  opacity: 70%;
-}
-
-.flickity-page-dots .dot {
-  background: hsla(0, 0%, 100%, 0.75);
-}
-
-/* fill-in selected dot */
-.flickity-page-dots .dot.is-selected {
-  background: white;
-}
-
-@media screen and (max-width: 768px) {
-  /* position outside */
-  /* .flickity-prev-next-button.previous {
-    left: -50px;
-  }
-  .flickity-prev-next-button.next {
-    right: -50px;
-  } */
-  .flickity-button {
-    display: none;
-  }
-}
-
-.carousel img {
-  display: block;
-  height: 100%;
-  min-height: 100%;
-}
-
-@media screen and (min-width: 768px) {
-  .carousel img {
-    height: 85vh;
-  }
-}
-
-.flickity-enabled:focus .flickity-viewport {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
+svg {
+  margin: 0 auto;
+  padding: 0.5rem;
 }
