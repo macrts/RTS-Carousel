@@ -1,0 +1,23 @@
+{
+  "name": "rts-carousel",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macrts/RTS-Carousel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macrts/RTS-Carousel/issues"
+  },
+  "homepage": "https://github.com/macrts/RTS-Carousel#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
